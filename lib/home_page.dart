@@ -48,8 +48,7 @@ class _HomePageState extends State<HomePage> {
             isThreeLine: true,
             contentPadding: EdgeInsets.only(left: 20.0, right: 20.0, top: 20.0),
             title:  Text(result[index]["user"]["firstName"] + " " + result[index]["user"]["lastName"],
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
-            //subtitle:  Text(result [index]["vehicle"]["licensePlate"]),
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),git
             subtitle: Column (
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget> [
